@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D874753C1E06865500480840"
-               BuildableName = "RxSwiftDemo.app"
-               BlueprintName = "RxSwiftDemo"
-               ReferencedContainer = "container:RxSwiftDemo.xcodeproj">
+               BlueprintIdentifier = "9C2D39CF9CFAE55401610F4F82599CB9"
+               BuildableName = "Pods_RxSwiftDemo.framework"
+               BlueprintName = "Pods-RxSwiftDemo"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D87475501E06865500480840"
-               BuildableName = "RxSwiftDemoTests.xctest"
-               BlueprintName = "RxSwiftDemoTests"
-               ReferencedContainer = "container:RxSwiftDemo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D874753C1E06865500480840"
-            BuildableName = "RxSwiftDemo.app"
-            BlueprintName = "RxSwiftDemo"
-            ReferencedContainer = "container:RxSwiftDemo.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -61,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D874753C1E06865500480840"
-            BuildableName = "RxSwiftDemo.app"
-            BlueprintName = "RxSwiftDemo"
-            ReferencedContainer = "container:RxSwiftDemo.xcodeproj">
+            BlueprintIdentifier = "9C2D39CF9CFAE55401610F4F82599CB9"
+            BuildableName = "Pods_RxSwiftDemo.framework"
+            BlueprintName = "Pods-RxSwiftDemo"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D874753C1E06865500480840"
-            BuildableName = "RxSwiftDemo.app"
-            BlueprintName = "RxSwiftDemo"
-            ReferencedContainer = "container:RxSwiftDemo.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
